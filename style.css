@@ -1,4 +1,6 @@
-body{font-family: 'Poppins', sans-serif;}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;}
 h1{font-size: 50px;}
 .name-highlight{
     color: mediumvioletred;
@@ -11,4 +13,12 @@ h1{font-size: 50px;}
 }
 .half-width img{
     width: 100%;
+}
+#topbanner{
+    border: 1px;
+    background-image: url("images/top-banner.png");
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
 }
